@@ -27,7 +27,7 @@ services:
       timeout: 10s
       retries: 3
     build:
-      context: ./pokemon-gold-v1
+      context: ./movie-gold-v1
       dockerfile: Dockerfile
     ports:
       - "3000:80"
